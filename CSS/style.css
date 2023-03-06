@@ -1,0 +1,41 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(26, 26, 26);
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 85vh;
+}
+
+#texte{
+    color: red;
+    font-size: 80px;
+    text-align: center;
+}
+
+#bouton{
+    border: 2px solid black;
+    border-radius: 35px;
+    padding: 5px;
+    background-color: #c93c3c;
+    cursor: pointer;
+    color: white;
+}
+
+#bouton:hover{
+    color: black;
+}
+
+#bouton:active{
+    color: white;
+}
+
+
+  

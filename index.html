@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Candidature cursed</title>
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+    <link href="/Images/icon.png" rel="shortcut icon">
+    <script src="javascript/main.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <p id="texte" style="display: none;">Je candidate pole web au bda (maime si g encore aucune compètance en web)</p>
+      <button id="bouton" onclick="audio.play();change()"> BOUTON </button>
+     
+    </div>
+    
+    
+    <script>
+      const showImageButton = document.getElementById("bouton");
+      const myImage = document.getElementById("texte"); 
+      showImageButton.addEventListener("click", () => { 
+          myImage.style.display = "flex";
+          showImageButton.style.display="none"; 
+      });
+   </script>
+
+    
+  </body>
+</html>
